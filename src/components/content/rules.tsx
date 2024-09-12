@@ -34,11 +34,11 @@ export default function Rules() {
     }
   ]
   return (
-    <Section heading="Reguły">
+    <Section heading="Reguły" className="py-40">
       <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-5 max-w-[65em] m-auto">
       {
-        cards.map(card => 
-          <Card className="bg-gradient-to-r from-purple-800 to-rose-600 border-none text-white w-[16em] text-center justify-self-center">
+        cards.map((card, i) => 
+          <Card className="bg-gradient-to-r from-purple-800 to-rose-600 border-none text-white w-[16em] text-center justify-self-center" key={i}>
             <CardHeader>
               <CardTitle>{card.description}</CardTitle>
             </CardHeader>

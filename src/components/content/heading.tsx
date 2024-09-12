@@ -13,7 +13,7 @@ export default function Heading() {
         alt="Picture of saint dominic getting rossary"
         />
       </div>
-      <div className="z-10 bg-white rounded-xl py-5 px-7 text-center drop-shadow-2xl">
+      <div className="z-10 bg-white/95 rounded-xl py-5 px-7 text-center drop-shadow-2xl">
         <h1 className="text-6xl text-rose-600 uppercase font-extrabold">
           Eletrykowe <br/>
           Róże Różańcowe

@@ -8,11 +8,11 @@ import {
 } from "@/components/ui/card"
 import Image from "next/image"
 import Section from "../ui/section"
-import confession from "@/app/confession.jpg"
+import confession from "@/app/images/confession.jpg"
 
 export default function Registration() {
   return (
-    <Section heading="Zapisy">
+    <Section heading="Zapisy" className="py-40">
       <div className="flex justify-center items-center gap-5">
         <div className="w-[30em] h-[20em] overflow-hidden flex items-center rounded-xl">
           <Image
@@ -24,8 +24,9 @@ export default function Registration() {
         <p className="font-extrabold text-xl">
           Ponieważ nasze plakaty są <br/>
           trollogenne, nie obsługujemy <br/>
-          cyfrowych zapisów - patrz w <br/>
-          kontakt 
+          cyfrowych zapisów - musisz<br/>
+          iść do ludzi którzy są podani <br/>
+          w <a href="#contact" className="underline">kontakcie</a>
         </p> 
       </div>
     </Section>
