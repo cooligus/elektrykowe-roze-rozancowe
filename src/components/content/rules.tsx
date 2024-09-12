@@ -8,10 +8,11 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 import Image from "next/image"
-import people from "@/app/people.svg";
-import rosary from "@/app/rosary.svg";
-import change from "@/app/change.svg";
-import meeting from "@/app/meeting.svg";
+import people from "@/app/images/people.svg";
+import rosary from "@/app/images/rosary.svg";
+import change from "@/app/images/change.svg";
+import meeting from "@/app/images/meeting.svg";
+import Section from "../ui/section";
 
 export default function Rules() {
   const cards = [
@@ -33,22 +34,21 @@ export default function Rules() {
     }
   ]
   return (
-    <div className="p-6">
-      <h2 className="uppercase text-5xl font-extrabold text-b text-center mb-8">Reguły</h2>
-      <div className="flex justify-center gap-5 ">
+    <Section heading="Reguły">
+      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-5 max-w-[65em] m-auto">
       {
         cards.map(card => 
-          <Card className="bg-gradient-to-r from-pink-700 to-rose-800 text-white w-[16em] text-center">
+          <Card className="bg-gradient-to-r from-purple-800 to-rose-600 border-none text-white w-[16em] text-center justify-self-center">
             <CardHeader>
               <CardTitle>{card.description}</CardTitle>
             </CardHeader>
-            <CardContent>
+            <CardContent className="flex justify-center">
               <Image src={card.image} alt="" className="invert w-[12em]"/>
             </CardContent>
           </Card>
         )
       }
       </div>
-    </div>
+    </Section>
   )
 }
