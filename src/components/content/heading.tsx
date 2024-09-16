@@ -18,7 +18,7 @@ export default function Heading() {
           Eletrykowe <br/>
           Róże Różańcowe
         </h1>
-        <p className="text-white md:text-2xl text-lg font-extralight">
+        <p className="text-white md:text-2xl text-lg font-light">
             Modlisz się jednym dziesiątkiem, <br/>
             a róża odmawia resztę
         </p>

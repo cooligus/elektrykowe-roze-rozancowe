@@ -7,7 +7,11 @@ export const metadata: Metadata = {
   description: "Strona informacyjna Elektrykowych Róż Rózańcowych",
 };
 
-const inter = Inter({ subsets: ['latin-ext'] })
+const inter = Inter({ 
+  subsets: ['latin-ext'],
+  weight:["200", "300", "400", "500", "800"],
+  variable: '--font-inter',
+})
 
 export default function RootLayout({
   children,
@@ -17,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} antialiased`}
+        className={`${inter.variable} font-inter antialiased`}
       >
         {children}
       </body>

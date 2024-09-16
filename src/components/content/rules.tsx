@@ -40,7 +40,7 @@ export default function Rules() {
         cards.map((card, i) => 
           <Card className="bg-gradient-to-r from-teal-600 to-cyan-800  border-none text-white w-[16em] text-center justify-self-center" key={i}>
             <CardHeader>
-              <CardTitle>{card.description}</CardTitle>
+              <CardTitle className="font-normal">{card.description}</CardTitle>
             </CardHeader>
             <CardContent className="flex justify-center">
               <Image src={card.image} alt="" className="invert w-[12em]"/>
