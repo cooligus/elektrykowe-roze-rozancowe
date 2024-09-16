@@ -3,11 +3,11 @@ import * as React from "react"
 import {
   Card,
   CardContent,
-  CardDescription,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
 import Image from "next/image"
+import mary from "@/app/images/mary.svg";
 import people from "@/app/images/people.svg";
 import rosary from "@/app/images/rosary.svg";
 import change from "@/app/images/change.svg";
@@ -34,7 +34,10 @@ export default function Rules() {
     }
   ]
   return (
-    <Section heading="Reguły" className="py-40">
+    <Section heading="Reguły" className="py-40 bg-right bg-no-repeat bg-hero bg-contain backdrop-blur-3xl"
+
+      style={{backgroundImage: `url(${mary.src})`}}
+    >
       <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-5 max-w-[65em] m-auto">
       {
         cards.map((card, i) => 

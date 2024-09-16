@@ -1,11 +1,5 @@
 import * as React from "react"
 
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card"
 import Image from "next/image"
 import Section from "../ui/section"
 import confession from "@/app/images/confession.jpg"
