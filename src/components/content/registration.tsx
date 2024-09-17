@@ -2,7 +2,7 @@ import * as React from "react"
 
 import Image from "next/image"
 import Section from "../ui/section"
-import confession from "@/app/images/confession.jpg"
+import confession from "@/../public/images/confession.jpg"
 
 export default function Registration() {
   return (

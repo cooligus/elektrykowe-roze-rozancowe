@@ -1,8 +1,8 @@
 import * as React from "react"
 
 import Image from "next/image"
-import joseph from "@/app/images/joseph.jpg"
-import rose from "@/app/images/rose.jpg"
+import joseph from "@/../public/images/joseph.jpg"
+import rose from "@/../public/images/rose.jpg"
 import Section from "../ui/section"
 import { Card } from "../ui/card"
 
