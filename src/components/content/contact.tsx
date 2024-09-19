@@ -11,7 +11,7 @@ export default function Contact() {
     {
       description: "Jerzy Talar",
       image: joseph,
-      href: ''
+      href: 'https://zsem.edu.pl/plany/plany/n59.html'
     },
   ]
   return (
@@ -21,16 +21,18 @@ export default function Contact() {
       style={{backgroundImage: `url(${rose.src})`}}>
       <div className="flex justify-center gap-3">
         {cards.map((card, i) => 
-        <Card className="border-none w-[16em] bg-zinc-900/80 text-center p-6 backdrop-blur-md" key={i}>
-          <Image 
-          src={card.image}
-          alt="Profile picture of Jerzy Talar"
-          className="rounded-full"
-          />
-          <p className="text-white font-extrabold text-2xl mt-4">
-            {card.description}
-          </p>
-        </Card>
+        <a href={card.href} key={i}>
+          <Card className="border-none w-[16em] bg-zinc-900/80 text-center p-6 backdrop-blur-md">
+            <Image 
+            src={card.image}
+            alt="Profile picture of Jerzy Talar"
+            className="rounded-full"
+            />
+            <p className="text-white font-extrabold text-2xl mt-4">
+              {card.description}
+            </p>
+          </Card>
+        </a>
         )}
       </div>
     </Section>
