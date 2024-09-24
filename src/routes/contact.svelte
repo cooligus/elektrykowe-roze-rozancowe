@@ -1,6 +1,6 @@
 <script>
-	import Card from '$lib/ui/card.svelte';
-	import Section from '$lib/ui/section.svelte';
+	import Card from '$lib/card.svelte';
+	import Section from '$lib/section.svelte';
 
 	const cards = [
 		{
@@ -22,11 +22,7 @@
 		{#each cards as card}
 			<a href={card.href}>
 				<Card classes="border-none w-[16em] bg-zinc-900/80 text-center p-6 backdrop-blur-md">
-					<img
-						src={card.image}
-						alt="Profile picture of Jerzy Talar"
-						class="rounded-full"
-					/>
+					<img src={card.image} alt="Profile picture of Jerzy Talar" class="rounded-full" />
 					<p class="text-white font-extrabold text-2xl mt-4">
 						{card.description}
 					</p>

@@ -1,4 +1,3 @@
-
 <div
 	class="w-screen h-screen flex justify-center items-center bg-gradient-to-r from-yellow-500 via-cyan-600 to-yellow-500 z-0"
 >

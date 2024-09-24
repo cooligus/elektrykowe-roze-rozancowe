@@ -1,6 +1,6 @@
 <script>
-	import Section from '$lib/ui/section.svelte';
-	import Card from '$lib/ui/card.svelte';
+	import Card from '$lib/card.svelte';
+	import Section from '$lib/section.svelte';
 
 	const cards = [
 		{
