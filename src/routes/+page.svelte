@@ -1,2 +1,18 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import Contact from "$lib/sections/contact.svelte";
+	import Footer from "$lib/sections/footer.svelte";
+	import Heading from "$lib/sections/heading.svelte";
+	import Registration from "$lib/sections/registration.svelte";
+	import Rules from "$lib/sections/rules.svelte";
+
+
+</script>
+<svelte:head>
+    <title>FAQ</title> 
+</svelte:head>
+
+<Heading/>
+<Rules/>
+<Registration/>
+<Contact/>
+<Footer/>

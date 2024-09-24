@@ -1,0 +1,49 @@
+<script>
+  import people from "$lib/assets/people.svg"
+  import rosary from "$lib/assets/rosary.svg"
+  import change from "$lib/assets/change.svg"
+  import meeting from "$lib/assets/meeting.svg"
+	import Section from "$lib/ui/section.svelte";
+	import Card from "$lib/ui/card.svelte";
+
+  const cards = [
+    {
+      description: "Jedna róża składa się z 20 osób",
+      image: people
+    },
+    {
+      description: "Każda osoba codziennie odmawia jeden dziesiątek różańca",
+      image: rosary
+    },
+    {
+      description: "Co miesiąc wymienia się tajemniczkę u zalatora (szefa róży)",
+      image: change
+    },
+    {
+      description: "Co miesiąc na discordzie odbywa się krótkie spotkanie",
+      image: meeting
+    }
+  ]
+
+</script>
+<Section heading="Reguły" classes="py-40 bg-right bg-no-repeat bg-hero bg-contain backdrop-blur-3xl">
+  <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-5 max-w-[65em] m-auto">
+    {#each cards as card }
+      <Card classes="bg-gradient-to-r from-teal-600 to-cyan-800  border-none text-white w-[16em] text-center justify-self-center">
+        <div
+          class="flex flex-col space-y-1.5 p-6"
+        >
+          <h3
+            class="font-normalleading-none tracking-tight"
+          >
+            {card.description}
+          </h3>
+        </div>
+
+        <div class="p-6 pt-0 flex justify-center">
+          <img src={card.image} alt="" class="invert w-[12em]"/>
+        </div>
+      </Card>
+    {/each}
+  </div>
+</Section>
