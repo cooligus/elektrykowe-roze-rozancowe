@@ -22,7 +22,7 @@
 		{#each cards as card}
 			<a href={card.href}>
 				<Card classes="border-none w-[16em] bg-zinc-900/80 text-center p-6 backdrop-blur-md">
-					<enhanced:img
+					<img
 						src={card.image}
 						alt="Profile picture of Jerzy Talar"
 						class="rounded-full"
