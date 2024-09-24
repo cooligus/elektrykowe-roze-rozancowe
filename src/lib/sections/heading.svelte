@@ -16,7 +16,7 @@
 		class="z-10 bg-zinc-900/80 rounded-xl py-5 px-7 text-center drop-shadow-2xl backdrop-blur-lg"
 	>
 		<h1 class="md:text-6xl text-3xl text-rose-600 uppercase font-extrabold">
-			Eletrykowe <br />
+			Elektrykowe <br />
 			Róże Różańcowe
 		</h1>
 		<p class="text-white md:text-2xl text-lg font-light">

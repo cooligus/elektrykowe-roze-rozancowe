@@ -9,11 +9,10 @@
 			<img class="object-fill relative top-7" src={confession} alt="Confession: happy priest" />
 		</div>
 		<p class="font-extrabold text-xl md:text-left text-center">
-			Ponieważ nasze plakaty są <br />
-			trollogenne, nie obsługujemy <br />
-			cyfrowych zapisów - musisz<br />
-			iść do ludzi którzy są podani <br />
-			w <a href="#contact" class="underline">kontakcie</a>
+			Jeśli wiesz jak się dostać do<br />
+			ludzi, którzy są podani <br />
+			w <a href="#contact" class="underline">kontakcie</a> to odwiedź <br />
+			nasz <a href="https://matrix.to/#/#elektrykowe-roze-rozancowe:matrix.org" class="underline">pokój na matrixie</a>
 		</p>
 	</div>
 </Section>
