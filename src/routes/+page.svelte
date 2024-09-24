@@ -10,8 +10,10 @@
 	<title>Elektrykowe Róże Różańcowe</title>
 </svelte:head>
 
-<Heading />
-<Rules />
-<Registration />
-<Contact />
-<Footer />
+<div class="dark:bg-gray-900 dark:text-white bg-white">
+	<Heading />
+	<Rules />
+	<Registration />
+	<Contact />
+	<Footer />
+</div>

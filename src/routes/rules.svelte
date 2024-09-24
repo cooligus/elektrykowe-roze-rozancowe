@@ -24,7 +24,7 @@
 
 <Section
 	heading="Reguły"
-	classes="py-40 bg-right bg-no-repeat bg-hero bg-contain backdrop-blur-3xl"
+	classes="py-40 bg-right bg-no-repeat bg-hero bg-contain backdrop-blur-3xl dark:bg-gray-900/60"
 >
 	<div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-5 max-w-[65em] m-auto">
 		{#each cards as card}

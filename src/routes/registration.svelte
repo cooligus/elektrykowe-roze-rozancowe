@@ -2,7 +2,7 @@
 	import Section from '$lib/section.svelte';
 </script>
 
-<Section heading="Zapisy" classes="pb-40">
+<Section heading="Zapisy" classes="py-40 dark:bg-gray-800 bg-slate-200">
 	<div class="flex justify-center items-center gap-5 md:flex-row flex-col">
 		<div class="md:w-[30em] md:h-[20em] w-[15em] overflow-hidden flex items-center rounded-xl">
 			<img
