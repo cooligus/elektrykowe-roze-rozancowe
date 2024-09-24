@@ -1,5 +1,5 @@
 <script>
-	import Section from '$lib/ui/section.svelte';
+	import Section from '$lib/section.svelte';
 </script>
 
 <Section heading="Zapisy" classes="pb-40">
