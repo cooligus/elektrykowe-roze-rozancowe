@@ -1,13 +1,11 @@
 <script>
-	import joseph from '$lib/assets/joseph.jpg';
-	import rose from '$lib/assets/rose.jpg';
 	import Card from '$lib/ui/card.svelte';
 	import Section from '$lib/ui/section.svelte';
 
 	const cards = [
 		{
 			description: 'Jerzy Talar',
-			image: joseph,
+			image: '/images/joseph.jpg',
 			href: 'https://zsem.edu.pl/plany/plany/n59.html'
 		}
 	];
@@ -18,7 +16,7 @@
 	id="contact"
 	classes="py-40 px-0 text-white bg-center bg-no-repeat bg-hero bg-cover backdrop-blur-sm"
 	headerClasses="text-rose-800 md:text-7xl text-5xl md:text-left md:absolute md:top-0 md:right-8 py-4 mb-0"
-	style={`background-image: url(${rose})`}
+	style={`background-image: url('/images/rose.jpg')`}
 >
 	<div class="flex justify-center gap-3">
 		{#each cards as card}

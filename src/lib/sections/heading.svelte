@@ -1,14 +1,11 @@
-<script>
-	import mary from '$lib/assets/mary.svg';
-</script>
 
 <div
 	class="w-screen h-screen flex justify-center items-center bg-gradient-to-r from-yellow-500 via-cyan-600 to-yellow-500 z-0"
 >
 	<div class="w-screen h-100 absolute z-0 flex justify-center overflow-hidden">
-		<enhanced:img
+		<img
 			class="md:w-screen min-w-[40em]"
-			src={mary}
+			src="/images/mary.svg"
 			alt="Picture of saint dominic getting rossary"
 		/>
 	</div>

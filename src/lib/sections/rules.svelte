@@ -1,27 +1,23 @@
 <script>
-	import people from '$lib/assets/people.svg';
-	import rosary from '$lib/assets/rosary.svg';
-	import change from '$lib/assets/change.svg';
-	import meeting from '$lib/assets/meeting.svg';
 	import Section from '$lib/ui/section.svelte';
 	import Card from '$lib/ui/card.svelte';
 
 	const cards = [
 		{
 			description: 'Jedna róża składa się z 20 osób',
-			image: people
+			image: '/images/people.svg'
 		},
 		{
 			description: 'Każda osoba codziennie odmawia jeden dziesiątek różańca',
-			image: rosary
+			image: '/images/rosary.svg'
 		},
 		{
 			description: 'Co miesiąc wymienia się tajemniczkę u zalatora (szefa róży)',
-			image: change
+			image: '/images/change.svg'
 		},
 		{
 			description: 'Co miesiąc na discordzie odbywa się krótkie spotkanie',
-			image: meeting
+			image: '/images/meeting.svg'
 		}
 	];
 </script>
