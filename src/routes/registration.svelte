@@ -11,11 +11,9 @@
 				alt="Confession: happy priest"
 			/>
 		</div>
-		<p class="font-extrabold text-xl md:text-left text-center">
-			Jeśli wiesz jak się dostać do<br />
-			ludzi, którzy są podani <br />
-			w <a href="#contact" class="underline">kontakcie</a> to odwiedź <br />
-			nasz
+		<p class="font-extrabold text-xl md:text-left text-center w-[15em]">
+			Sugerujemy udać się do jednego z <a href="#contact" class="underline">katechetów</a>
+			jednakże oferujemy też możliwość kontaktu przez 
 			<a href="https://matrix.to/#/#elektrykowe-roze-rozancowe:matrix.org" class="underline"
 				>pokój na matrixie</a
 			>
