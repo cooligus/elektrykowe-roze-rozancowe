@@ -5,7 +5,7 @@
 		<img
 			class="md:w-screen min-w-[40em]"
 			src="/images/mary.svg"
-			alt="Picture of saint dominic getting rossary"
+			alt="Mozaikowa Maryja - logo Elektrykowych Róż Różańcowych"
 		/>
 	</div>
 	<div

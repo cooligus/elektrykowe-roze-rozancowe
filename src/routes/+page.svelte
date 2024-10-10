@@ -13,7 +13,6 @@
 <div class="dark:bg-gray-900 dark:text-white bg-white">
 	<Heading />
 	<Rules />
-	<Registration />
 	<Contact />
 	<Footer />
 </div>
