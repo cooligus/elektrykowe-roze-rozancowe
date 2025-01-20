@@ -29,10 +29,10 @@
 	<div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-5 max-w-[65em] m-auto">
 		{#each cards as card}
 			<Card
-				classes="bg-gradient-to-r from-teal-600 to-cyan-800  border-none text-white w-[16em] text-center justify-self-center"
+				classes="bg-gradient-to-r from-rose-900 to-rose-700  border-none text-white w-[16em] text-center justify-self-center"
 			>
 				<div class="flex flex-col space-y-1.5 p-6">
-					<h3 class="font-normalleading-none tracking-tight">
+					<h3 class="font-normal leading-none tracking-tight">
 						{card.description}
 					</h3>
 				</div>
