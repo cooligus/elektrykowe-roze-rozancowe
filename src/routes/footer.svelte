@@ -2,11 +2,11 @@
 	const footerLinks = [
 		{
 			description: 'Co to różaniec?',
-			href: 'https://sanktuarium-cieszecin.pl/rozaniec-czym-jest-rozaniec-jak-odmawiac-rozaniec'
+			href: '/blog/rosary'
 		},
 		{
 			description: 'Polityka prywatności',
-			href: 'https://lexdigital.pl/polityka-prywatnosci-wzor-zgodny-z-rodo'
+			href: '/blog/privacy'
 		}
 	];
 </script>

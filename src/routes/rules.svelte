@@ -31,14 +31,14 @@
 			<Card
 				classes="bg-gray-800 border-none text-white w-[16em] text-center justify-self-center flex flex-col justify-between items-between"
 			>
-				<div class="flex flex-col space-y-1.5 p-6">
+				<div class="flex flex-col pt-6 px-7 h-max items-center">
 					<h3 class="font-bold leading-none">
 						{card.description}
 					</h3>
 				</div>
 
-				<div class="m-3 flex justify-center rounded-xl overflow-hidden">
-					<img src={card.image} alt="" class="w-full h-full" />
+				<div class="m-3 flex justify-center rounded-xl overflow-hidden h-[12em]">
+					<img src={card.image} alt="" class="object-cover" />
 				</div>
 			</Card>
 		{/each}

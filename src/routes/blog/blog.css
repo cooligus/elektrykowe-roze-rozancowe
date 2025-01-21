@@ -1,0 +1,27 @@
+.blog-container h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-block: .5em;
+}
+
+.blog-container h2 {
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-block: .3em;
+}
+
+.blog-container ul {
+    margin-left: 1.5em;
+    list-style-type: disc;
+}
+
+.blog-container ol {
+    margin-left: 1.5em;
+    list-style-type: numeric;
+}
+
+.blog-container {
+    max-width: 50em;
+}
