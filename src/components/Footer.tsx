@@ -1,11 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Heart, Mail, MessageCircle, Cross } from "lucide-react";
+import { joinServer } from "@/lib/joinServer";
 
 const Footer = () => {
-  const joinServer = () => {
-    window.open("https://discord.gg/rozaniec", "_blank");
-  };
-
   return (
     <footer className="bg-gradient-heaven text-white relative overflow-hidden">
       <div className="container mx-auto px-6 py-16">

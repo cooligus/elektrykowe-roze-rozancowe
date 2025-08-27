@@ -1,11 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Clock, Headphones, Smartphone, Bot } from "lucide-react";
+import { joinServer } from "@/lib/joinServer";
 
 const Rosary24Section = () => {
-  const joinServer = () => {
-    window.open("https://discord.gg/rozaniec", "_blank");
-  };
-
   return (
     <section className="py-20 bg-background relative" id="rosary247">
       <div className="container mx-auto px-6">
