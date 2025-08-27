@@ -1,13 +1,8 @@
 import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 import { ExternalLink, Calendar, ChevronRight } from "lucide-react";
+import { joinServer } from "@/lib/joinServer";
 
 const NewsSection = () => {
-  const joinServer = () => {
-    window.open("https://discord.gg/rozaniec", "_blank");
-  };
-
   return (
     <section className="py-20 bg-gradient-peace" id="news">
       <div className="container mx-auto px-6">

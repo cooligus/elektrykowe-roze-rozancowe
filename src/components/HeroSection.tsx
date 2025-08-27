@@ -1,11 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Heart, Users, Clock } from "lucide-react";
+import { joinServer } from "@/lib/joinServer";
 
 const HeroSection = () => {
-  const joinServer = () => {
-    window.open("https://discord.gg/rozaniec", "_blank");
-  };
-
   return (
     <section className="min-h-screen bg-gradient-heaven flex items-center justify-center relative overflow-hidden">
       {/* Floating elements */}

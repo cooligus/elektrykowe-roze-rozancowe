@@ -1,11 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Shield, BookOpen, Lightbulb } from "lucide-react";
+import { joinServer } from "@/lib/joinServer";
 
 const AboutSection = () => {
-  const joinServer = () => {
-    window.open("https://discord.gg/rozaniec", "_blank");
-  };
-
   return (
     <section className="py-20 bg-gradient-peace relative" id="about">
       <div className="container mx-auto px-6">
