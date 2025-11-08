@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { LinkButton } from "@/components/ui/link-button";
 import { Heart, Mail, MessageCircle, Cross } from "lucide-react";
 import { joinServer } from "@/lib/joinServer";
 
@@ -16,14 +16,16 @@ const Footer = () => {
             Stań się częścią polskiej społeczności modlitwy różańcowej online. 
             Razem jesteśmy silniejsi w wierze.
           </p>
-          <Button 
-            variant="sacred" 
-            size="xl" 
-            onClick={joinServer}
+          <LinkButton
+            variant="sacred"
+            size="xl"
+            href={joinServer}
+            target="_blank"
+            rel="noreferrer noopener"
             className="text-lg font-bold min-w-[300px]"
           >
             🌹 Dołącz do Serwera Discord
-          </Button>
+          </LinkButton>
         </div>
 
         {/* Info Grid */}
@@ -66,18 +68,18 @@ const Footer = () => {
             </div>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button 
-                variant="divine" 
+              <LinkButton
+                variant="divine"
                 onClick={() => document.getElementById('living-rosary')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 O Żywym Różańcu
-              </Button>
-              <Button 
+              </LinkButton>
+              <LinkButton
                 variant="divine"
                 onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
               >
                 O nas
-              </Button>
+              </LinkButton>
             </div>
           </div>
         </div>

@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { LinkButton } from "@/components/ui/link-button";
 import { Shield, BookOpen, Lightbulb } from "lucide-react";
 import { joinServer } from "@/lib/joinServer";
 
@@ -55,9 +55,9 @@ const AboutSection = () => {
               uczestniczyć w modlitwie zgodnie ze swoimi możliwościami i czasem. To platforma, 
               która łączy ludzi w realnym czasie, umożliwiając autentyczne budowanie więzi duchowych.
             </p>
-            <Button variant="sacred" size="lg" onClick={joinServer}>
+            <LinkButton variant="sacred" size="lg" href={joinServer}>
               Przekonaj się sam - dołącz już teraz!
-            </Button>
+            </LinkButton>
           </div>
         </div>
       </div>

@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { LinkButton } from "@/components/ui/link-button";
 import { ExternalLink, Calendar, ChevronRight } from "lucide-react";
 import { joinServer } from "@/lib/joinServer";
 
@@ -61,9 +61,9 @@ const NewsSection = () => {
               </div>
             </div>
             
-            <Button variant="sacred" size="lg" onClick={joinServer}>
+            <LinkButton variant="sacred" size="lg" href={joinServer} target="_blank" rel="noreferrer noopener">
               📰 Zobacz aktualności na serwerze
-            </Button>
+            </LinkButton>
           </div>
         </div>
       </div>

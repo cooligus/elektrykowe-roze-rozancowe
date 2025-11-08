@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { LinkButton } from "@/components/ui/link-button";
 import { Crown, Users2, MessageCircle, Calendar } from "lucide-react";
 import { joinServer } from "@/lib/joinServer";
 
@@ -100,16 +100,16 @@ const LivingRosarySection = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button variant="sacred" size="xl" onClick={joinServer}>
+            <LinkButton variant="sacred" size="xl" href={joinServer} target="_blank" rel="noreferrer noopener">
               🌹 Dołącz do Żywego Różańca
-            </Button>
-            <Button 
-              variant="peaceful" 
+            </LinkButton>
+            <LinkButton
+              variant="peaceful"
               size="xl"
               onClick={() => document.getElementById('rosary247')?.scrollIntoView({ behavior: 'smooth' })}
             >
               Zobacz więcej opcji modlitwy
-            </Button>
+            </LinkButton>
           </div>
         </div>
       </div>

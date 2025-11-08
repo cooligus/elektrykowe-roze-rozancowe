@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { LinkButton } from "@/components/ui/link-button";
 import { Heart, Users, Clock } from "lucide-react";
 import { joinServer } from "@/lib/joinServer";
 
@@ -36,23 +36,25 @@ const HeroSection = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
-            <Button
+            <LinkButton
               variant="sacred"
               size="xl"
-              onClick={joinServer}
+              href={joinServer}
+              target="_blank"
+              rel="noreferrer noopener"
               className="text-lg font-bold min-w-[250px]"
             >
               🙏 Dołącz do Serwera
-            </Button>
+            </LinkButton>
             
-            <Button
+            <LinkButton
               variant="divine"
               size="xl"
               onClick={() => document.getElementById('living-rosary')?.scrollIntoView({ behavior: 'smooth' })}
               className="min-w-[200px]"
             >
               Dowiedz się więcej
-            </Button>
+            </LinkButton>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">

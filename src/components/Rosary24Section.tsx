@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { LinkButton } from "@/components/ui/link-button";
 import { Clock, Headphones, Smartphone, Bot } from "lucide-react";
 import { joinServer } from "@/lib/joinServer";
 
@@ -117,9 +117,9 @@ const Rosary24Section = () => {
             przez wstawiennictwo Maryi. Dołącz do nas i znajdź pokój w modlitwie różańcowej.
           </p>
           
-          <Button variant="sacred" size="xl" onClick={joinServer}>
+          <LinkButton variant="sacred" size="xl" href={joinServer} target="_blank" rel="noreferrer noopener">
             🕐 Rozpocznij modlitwę 24/7
-          </Button>
+          </LinkButton>
         </div>
       </div>
     </section>
